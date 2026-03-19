@@ -2,7 +2,7 @@
 
 Give any AI model the ability to make crypto payments with spending limits.
 
-[AgentPays](https://agentpays.com) provides spending policy enforcement for AI agents — this MCP server exposes those capabilities to any MCP-compatible AI (Claude, GPT, Gemini, etc.).
+[AgentPays](https://agentpays.app) provides spending policy enforcement for AI agents — this MCP server exposes those capabilities to any MCP-compatible AI (Claude, GPT, Gemini, etc.).
 
 ## Quick Start
 
