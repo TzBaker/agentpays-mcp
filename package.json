@@ -1,0 +1,36 @@
+{
+  "name": "agentpays-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AgentPays — crypto spending limits for AI agents",
+  "author": "AgentPays",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "agentpays-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "agentpays",
+    "crypto",
+    "payments",
+    "ai-agents",
+    "spending-limits",
+    "usdc",
+    "ethereum"
+  ]
+}
