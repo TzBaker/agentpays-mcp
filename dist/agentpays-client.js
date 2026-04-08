@@ -17,7 +17,7 @@ class AgentPaysClient {
         const apiKey = process.env.AGENTPAYS_API_KEY ?? process.env.AGENTPAY_KEY;
         const baseUrl = process.env.AGENTPAYS_BASE_URL ??
             process.env.AGENTPAY_URL ??
-            "http://localhost:3000";
+            "https://agentpays.app";
         if (!agentId || !apiKey) {
             throw new Error("Missing AGENTPAYS_AGENT_ID and/or AGENTPAYS_API_KEY environment variables");
         }

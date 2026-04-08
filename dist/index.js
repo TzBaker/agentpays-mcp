@@ -18,7 +18,7 @@
  *         "env": {
  *           "AGENTPAYS_AGENT_ID": "your-agent-id",
  *           "AGENTPAYS_API_KEY": "apk_live_...",
- *           "AGENTPAYS_BASE_URL": "https://your-server.com"
+ *           "AGENTPAYS_BASE_URL": "https://agentpays.app"
  *         }
  *       }
  *     }
@@ -37,7 +37,7 @@ try {
 catch (err) {
     console.error("AgentPays MCP: Failed to initialize.\n" +
         "Set AGENTPAYS_AGENT_ID and AGENTPAYS_API_KEY environment variables.\n" +
-        "Optionally set AGENTPAYS_BASE_URL (defaults to http://localhost:3000).\n");
+        "Optionally set AGENTPAYS_BASE_URL (defaults to https://agentpays.app).\n");
     process.exit(1);
 }
 // ─── Tool Definitions ───────────────────────────────────────

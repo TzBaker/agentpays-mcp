@@ -63,7 +63,7 @@ export class AgentPaysClient {
     const baseUrl =
       process.env.AGENTPAYS_BASE_URL ??
       process.env.AGENTPAY_URL ??
-      "http://localhost:3000";
+      "https://agentpays.app";
 
     if (!agentId || !apiKey) {
       throw new Error(

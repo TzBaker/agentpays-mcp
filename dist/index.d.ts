@@ -17,7 +17,7 @@
  *         "env": {
  *           "AGENTPAYS_AGENT_ID": "your-agent-id",
  *           "AGENTPAYS_API_KEY": "apk_live_...",
- *           "AGENTPAYS_BASE_URL": "https://your-server.com"
+ *           "AGENTPAYS_BASE_URL": "https://agentpays.app"
  *         }
  *       }
  *     }

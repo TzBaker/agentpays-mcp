@@ -24,8 +24,7 @@ Add to your Claude Desktop config (`~/.config/claude/claude_desktop_config.json`
       "args": ["agentpays-mcp"],
       "env": {
         "AGENTPAYS_AGENT_ID": "your-agent-id",
-        "AGENTPAYS_API_KEY": "apk_live_...",
-        "AGENTPAYS_BASE_URL": "https://your-server.com"
+        "AGENTPAYS_API_KEY": "apk_live_..."
       }
     }
   }
@@ -62,7 +61,7 @@ Claude: ✅ Payment sent
 |----------|----------|-------------|
 | `AGENTPAYS_AGENT_ID` | ✅ | Your AgentPays agent ID |
 | `AGENTPAYS_API_KEY` | ✅ | Your AgentPays API key |
-| `AGENTPAYS_BASE_URL` | ❌ | Server URL (default: `http://localhost:3000`) |
+| `AGENTPAYS_BASE_URL` | ❌ | Server URL (default: `https://agentpays.app`) |
 
 Also accepts legacy names: `AGENTPAY_AGENT_ID`, `AGENTPAY_KEY`, `AGENTPAY_URL`.
 
@@ -90,10 +89,10 @@ The AI never has direct access to wallet keys. All payments go through the Agent
 
 ## Supported Currencies & Chains
 
-Depends on your AgentPays server configuration. Common setups:
+Depends on your AgentPays configuration. Common setups:
 
-- **Currencies:** USDC, EURC, ETH (any ERC-20 can be added)
-- **Chains:** Ethereum, Base, Sepolia (testnet), Base Sepolia (testnet)
+- **Currencies:** USDC, EURC, WETH, ETH (any ERC-20 can be added)
+- **Chains:** Ethereum, Base, Arbitrum, Optimism, Polygon + testnets (17 EVM chains supported)
 
 ## Development
 
